@@ -1,0 +1,15 @@
+package array;
+
+public class DeleteFromArray {
+
+	static int count = 5;
+
+	public static void main(String[] args) {
+	int a[] = { 12, 34, 45, 6, 13};
+	DeleteFromArray obj = new DeleteFromArray ();
+	obj.print(a);
+
+	obj.deleteFromEnd(a);
+	obj.print(a);
+	}
+}
