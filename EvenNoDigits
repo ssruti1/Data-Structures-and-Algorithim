@@ -1,0 +1,20 @@
+class Solution {
+    public int findNumbers(int[] nums) {
+        int ret = 0;
+        for(int i: nums){
+            if(len(i)%2==0){
+                ret++;
+            }
+        }
+        return ret;
+    }
+
+    public int len(int x){
+        int ret = 0;
+        while(x != 0){
+            ret++;
+            x /= 10;
+        }
+        return ret;
+    }
+}
