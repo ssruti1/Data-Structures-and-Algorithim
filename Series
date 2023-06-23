@@ -1,0 +1,19 @@
+0,0,2,1,4,2,6,3,8,4,10,5,12,6,14,...
+finding nth term
+
+import java.util.*;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if(n%2==1){
+            int a = n/2;
+            System.out.println(a*2);
+        }else{
+            n = n-1;
+            int a = n/2;
+            System.out.println((a*2)/2);
+        }
+    }
+}
